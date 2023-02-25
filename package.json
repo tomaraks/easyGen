@@ -1,0 +1,25 @@
+{
+  "name": "easygen",
+  "version": "1.0.0",
+  "description": "Project for easygenerator",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --browser chrome",
+    "test:headless": "cypress run --headless --browser chrome"
+  },
+  "author": "Akshay Tomar",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.6.0",
+    "cypress-real-events": "^1.7.6"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": false,
+    "singleQuote": true
+  }
+}
